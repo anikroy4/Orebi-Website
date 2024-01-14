@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navList {
+    opacity: 0;
+    transition: .8s;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.slick-active div {
+    font-size: 16px !important;
+    color: black !important;
+    border-color: black !important;
+    text-align: center !important;
+}
