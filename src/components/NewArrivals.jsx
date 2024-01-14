@@ -52,10 +52,9 @@ const NewArrivals = () => {
     <>
       <div>
         <Container className="max-w-[1640px]"> 
-        <h2 className='font-dm font-bold text-4xl'>
+        <h2 className='font-dm font-bold text-4xl ml-5 mb-[50px]'>
           New Arrivals
         </h2>
-          
           <Slider {...settings}>
             <div className='px-5'>
               <Product diffrentSrc="src/assets/Product1.jpg" />
