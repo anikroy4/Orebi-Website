@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className=" h-16 w-16 bg-slate-400 flex justify-center items-center absolute right-5 rounded-full top-1/2 translate-y-[-50%] z-10 "
+      className=" h-16 w-16 bg-slate-50 flex justify-center items-center absolute right-5 rounded-full top-1/2 translate-y-[-50%] z-10 "
 
       onClick={onClick}
     >
@@ -26,7 +26,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className=" h-16 w-16 bg-slate-400 flex justify-center items-center absolute left-5 rounded-full top-1/2 translate-y-[-50%] z-10 "
+      className=" h-16 w-16 bg-slate-50 flex justify-center items-center absolute left-5 rounded-full top-1/2 translate-y-[-50%] z-10 "
 
       onClick={onClick}
     >
@@ -51,7 +51,11 @@ const NewArrivals = () => {
   return (
     <>
       <div>
-        <Container className="max-w-[1640px]">
+        <Container className="max-w-[1640px]"> 
+        <h2 className='font-dm font-bold text-4xl'>
+          New Arrivals
+        </h2>
+          
           <Slider {...settings}>
             <div className='px-5'>
               <Product diffrentSrc="src/assets/Product1.jpg" />
