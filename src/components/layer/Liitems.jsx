@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Liitems = () => {
+const Liitems = ({children}) => {
   return (
-    <div>Liitems</div>
+    <div>{children}</div>
   )
 }
 
